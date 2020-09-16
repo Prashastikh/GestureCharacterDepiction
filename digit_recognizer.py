@@ -82,10 +82,6 @@ cap.release()
 cv2.destroyAllWindows()
 #plt.imshow(img)
 '''
-
-
-############  prediction via paints ##########
-### glob
 run = False
 ix,iy = -1,-1
 follow = 25
@@ -128,6 +124,4 @@ while True:
         break
 
 cv2.destroyAllWindows()
-
-########## THANKS ##########
 
